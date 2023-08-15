@@ -22,7 +22,7 @@ function Home() {
 
               <h1 className="heading-name">
                 我是
-                <strong className="main-name"> SPP</strong>
+                <strong className="main-name"> 徐沛駿</strong>
                 是一名插畫家
               </h1>
 

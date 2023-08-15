@@ -10,9 +10,15 @@ import { ImBlog } from "react-icons/im";
 import {
   AiFillStar,
   AiOutlineHome,
-  AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
+
+
+
+import{
+  PiPaintBrush
+} from "react-icons/pi";
+
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -75,10 +81,10 @@ function NavBar() {
                 to="/project"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineFundProjectionScreen
+                <PiPaintBrush
                   style={{ marginBottom: "2px" }}
                 />{" "}
-                Projects
+                Artworks
               </Nav.Link>
             </Nav.Item>
 

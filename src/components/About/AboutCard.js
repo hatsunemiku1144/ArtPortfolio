@@ -10,24 +10,23 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Pei Chun,Hsu </span>
             from <span className="purple"> Taichung, Taiwan.</span>
-            <br /> I am currently a software engineneer,
-            in Maths and Computing at BIT Mesra.
+            <br /> I am currently a software developer at Deanshoes
+
             <br />
-            Additionally, I am currently employed as a software developer at
-            Juspay.
+           I am looking forward to become a profresstional Artist.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from drawing, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Listing Musics
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> Movie watching
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> Working out
             </li>
           </ul>
 
