@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ArtworkCards from "./ArtworkCards";
 import Particle from "../Particle";
-import chatify from "../../Assets/Projects/chatify.png";
+
 
 
 function Artworks() {
@@ -19,16 +19,20 @@ function Artworks() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ArtworkCards
-              imgPath={chatify}
-       
-              artworktitle="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+                imgSrc = ""
+                artworkTitle = "Title1"
+                desc = "desc1"
+                artworkLink = ""
             />
           </Col>
-
- 
+          <Col md={4} className="project-card">
+            <ArtworkCards
+                imgSrc = ""
+                artworkTitle = "Title2"
+                desc = "desc2"
+                artworkLink = ""
+            />
+          </Col>
         </Row>
       </Container>
     </Container>
