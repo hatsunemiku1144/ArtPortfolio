@@ -655,6 +655,14 @@ button:focus {
   position: relative;
 }
 
+.circle {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(20, 22, 19);
+  border-radius: 50%;
+}
+
 .resume .resume-item .resume-title {
   line-height: 18px;
   font-size: 0.9em;

@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ArtworkCards from "./ArtworkCards";
 import Particle from "../Particle";
-
+import FakeImage from "../../Assets/Artworks/Sketch/FakeImage.png";
 
 
 function Artworks() {
@@ -19,7 +19,7 @@ function Artworks() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ArtworkCards
-                imgSrc = ""
+                imgSrc = {FakeImage}
                 artworkTitle = "Title1"
                 desc = "desc1"
                 artworkLink = ""
@@ -27,7 +27,7 @@ function Artworks() {
           </Col>
           <Col md={4} className="project-card">
             <ArtworkCards
-                imgSrc = ""
+                     imgSrc = {FakeImage}
                 artworkTitle = "Title2"
                 desc = "desc2"
                 artworkLink = ""

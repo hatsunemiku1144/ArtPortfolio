@@ -75,12 +75,12 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/artworks"
+                to="/artwork"
                 onClick={() => updateExpanded(false)}
               >
                 <PiPaintBrush
                   style={{ marginBottom: "2px" }}
-                />{" "}
+                />
                 Artworks
               </Nav.Link>
             </Nav.Item>
