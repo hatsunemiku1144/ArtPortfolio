@@ -1,17 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css";
+import "./i18n";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import { IntlProvider } from "react-intl";
 //抓取使用者瀏覽器語言
 const locale =  navigator.languages;
 ReactDOM.render(
  
   <React.StrictMode>
-    <IntlProvider locale={locale}>
     <App />
-    </IntlProvider>
   </React.StrictMode>,
   document.getElementById("root")
 );

@@ -3,43 +3,13 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
-
 import Type from "./Type";
-import {
-  useIntl,
-} from "react-intl";
 
-
-let language = "en";
-switch (navigator.language) {
-  case "ja":
-    language = "ja";
-    break;
-  case "zh":
-    language = "zh";
-    break;
-  default:
-    language = "en";
-    break;
-}
-
-
-
-function loadMessages(locale) {
-  switch (locale) {
-    case "ja":
-      return import("../../language/ja.json");
-    case "en":
-      return import("../../language/en.json");
-    case "zh":
-      return import("../../language/zh.json");
-    default:
-      return import("../../language/en.json");
-  }
-}
+import { useTranslation } from "react-i18next";
 
 function Home() {
-  const intl = useIntl();
+  const { t, i18n } = useTranslation();
+
   return (
 
     <section>
@@ -47,6 +17,7 @@ function Home() {
         <Particle />
         <Container className="home-content">
           <Row>
+           <Col><h1>{t("testmsg")}</h1> </Col>
             <Col md={2}><div className="circle"></div></Col>
             <Col md={7}>
               <Row>
