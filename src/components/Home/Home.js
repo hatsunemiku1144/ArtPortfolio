@@ -7,16 +7,7 @@ import Home2 from "./Home2";
 import Type from "./Type";
 import {
   useIntl,
-  IntlProvider,
-  FormattedMessage,
-  FormattedDate,
-  FormattedTime,
-  FormattedRelativeTime,
-  FormattedNumber,
-  FormattedList,
 } from "react-intl";
-import { useState } from "react";
-
 
 
 let language = "en";

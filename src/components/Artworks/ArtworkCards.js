@@ -5,16 +5,22 @@ import { SiPixiv } from "react-icons/si";
 
 function ArtworkCards(props) {
   return (
-    <Card  className="project-card-view">
+
+    <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgSrc} />
       <Card.Body>
         <Card.Title>{props.artworkTitle}</Card.Title>
         <Card.Text>
-        {props.desc}
+          {props.desc}
         </Card.Text>
-        <Button variant="primary" href={props.artworkLink} target="_blank">
-          <SiPixiv /> &nbsp;
-        </Button>
+        <a
+                href= {props.artworkLink}
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <SiPixiv />
+              </a> &nbsp;
       </Card.Body>
 
     </Card>

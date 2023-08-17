@@ -16,23 +16,53 @@ function Artworks() {
         <p style={{ color: "white" }}>
           Here are a few artWorks I've worked on recently.
         </p>
+        <Row>   
+          <span className="purple">鉛筆素描</span>
+        </Row>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ArtworkCards
-                imgSrc = {FakeImage}
-                artworkTitle = "Title1"
-                desc = "desc1"
-                artworkLink = ""
+              imgSrc={FakeImage}
+              artworkTitle="Title1"
+              desc="desc1"
+              artworkLink="https://www.google.com/"
             />
           </Col>
           <Col md={4} className="project-card">
             <ArtworkCards
-                     imgSrc = {FakeImage}
-                artworkTitle = "Title2"
-                desc = "desc2"
-                artworkLink = ""
+              imgSrc={FakeImage}
+              artworkTitle="Title2"
+              desc="desc2"
+              artworkLink=""
             />
           </Col>
+          <Col md={4} className="project-card">
+            <ArtworkCards
+              imgSrc={FakeImage}
+              artworkTitle="Title2"
+              desc="desc2"
+              artworkLink=""
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ArtworkCards
+              imgSrc={FakeImage}
+              artworkTitle="Title2"
+              desc="desc2"
+              artworkLink=""
+            />
+          </Col>
+        </Row>
+        <Row>
+          <span>Testing</span>
+        </Row>
+        <Row>
+          <Col md={4}><ArtworkCards
+                      imgSrc={FakeImage}
+                      artworkTitle="Title2"
+                      desc="desc2"
+                      artworkLink=""
+          /></Col>
         </Row>
       </Container>
     </Container>
