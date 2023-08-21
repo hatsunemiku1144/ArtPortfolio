@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Suspense } from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
@@ -11,13 +11,14 @@ function Home() {
   const { t, i18n } = useTranslation();
 
   return (
-
+    // i18n translations might still be loaded by the http backend
+    // use react's Suspense
     <section>
       <Container fluid className="home-section" id="home">
         <Particle />
         <Container className="home-content">
           <Row>
-           <Col><h1>{t("testmsg")}</h1> </Col>
+            <h1>{t('testmsg')}</h1>
             <Col md={2}><div className="circle"></div></Col>
             <Col md={7}>
               <Row>

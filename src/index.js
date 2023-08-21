@@ -5,7 +5,6 @@ import "./i18n";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 //抓取使用者瀏覽器語言
-const locale =  navigator.languages;
 ReactDOM.render(
  
   <React.StrictMode>
