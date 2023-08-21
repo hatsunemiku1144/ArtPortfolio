@@ -17,7 +17,7 @@ function Artworks() {
           Here are a few artWorks I've worked on recently.
         </p>
         <Row>   
-          <span className="purple">鉛筆素描</span>
+          <h1 className="purple">鉛筆素描</h1>
         </Row>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
