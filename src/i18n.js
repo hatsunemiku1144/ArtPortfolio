@@ -4,12 +4,31 @@ import { initReactI18next } from 'react-i18next';
 import Backend from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
+import translationEN from './public/locales/en/translation.json';
+import translationJA from './public/locales/ja/translation.json';
+import translationZH from './public/locales/zh/translation.json';
+const resources = {
+  en: {
+    translation: translationEN
+  },
+  ja: {
+    translation: translationJA
+  },
+  zh:{
+    translation: translationZH
+  }
+};
+
+// ...
+
 
 i18n
   .use(Backend)
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
+    resources,
+    lng:'zh',
     fallbackLng: 'en',
     debug: true,
     react: { 

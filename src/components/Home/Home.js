@@ -7,7 +7,7 @@ import Type from "./Type";
 import { useTranslation } from "react-i18next";
 
 function Home() {
-  const { t, i18n } = useTranslation();
+  const { t,i18n} = useTranslation();
 
   return (
     // i18n translations might still be loaded by the http backend
@@ -17,12 +17,13 @@ function Home() {
         <Particle />
         <Container className="home-content">
           <Row>
-            <h1>{t('testmsg')}</h1>
+          <h1>{t('testmsg')}</h1>
+
             <Col md={2}><div className="circle"></div></Col>
             <Col md={7}>
               <Row>
-                <Col>  <h1 className="heading">H1Text</h1>
-                  <p>{t("selfIntroduction")}</p>
+                <Col>  <h1 className="heading">{t('selfIntroduction')}</h1>
+  
                 </Col>
               </Row>
             </Col>
