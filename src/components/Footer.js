@@ -4,7 +4,7 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
-import{SiPixiv} from "react-icons/si"
+import { SiPixiv } from "react-icons/si"
 
 function Footer() {
   let date = new Date();
@@ -16,16 +16,16 @@ function Footer() {
           <h3>Designed and Developed by SPP,Origin Source by Soumyajit Behera</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
+          <h3>Copyright © {year} SPP</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
-          
+
             <li className="social-icons">
               <a
                 href="https://www.pixiv.net/en/users/6078612"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <SiPixiv />
@@ -36,15 +36,15 @@ function Footer() {
               <a
                 href="https://twitter.com/SPP5566"
                 style={{ color: "white" }}
-                target="_blank" 
+                target="_blank"
                 rel="noopener noreferrer"
               >
                 <AiOutlineTwitter />
               </a>
             </li>
 
-          
-        
+
+
           </ul>
         </Col>
       </Row>
