@@ -1,11 +1,9 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { SiPixiv } from "react-icons/si"
-
+import { FaXTwitter } from "react-icons/fa6";
+import { SiPixiv } from "react-icons/si";
+import { AiFillInstagram } from "react-icons/ai";
+import { SiGmail } from "react-icons/si";
 function Footer() {
   let date = new Date();
   let year = date.getFullYear();
@@ -31,18 +29,6 @@ function Footer() {
                 <SiPixiv />
               </a>
             </li>
-
-            <li className="social-icons">
-              <a
-                href="https://twitter.com/SPP5566"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-
 
 
           </ul>

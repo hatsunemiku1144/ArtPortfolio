@@ -16,30 +16,28 @@ function Home() {
 
         <Container className="home-content">
           <Row>
-            <h1>{t('testmsg')}</h1>
+
 
             <Col md={2}><div className="circle"></div></Col>
             <Col md={7}>
               <Row>
-                <Col>  <h1 className="heading">{t('selfIntroduction')}</h1>
 
-                </Col>
               </Row>
             </Col>
           </Row>
           <Row>
-            <Col md={7} className="home-header">
+            <Col md={8} className="home-header">
               <h1 style={{ paddingBottom: 15 }} className="heading">
-                Hi There!{" "}
+                Hi {" "}
                 <span className="wave" role="img" aria-labelledby="wave">
                   👋🏻
                 </span>
               </h1>
 
               <h1 className="heading-name">
-                我是
-                <strong className="main-name"> 徐沛駿</strong>
-                是一名插畫家
+                謝謝點進網站的您<br></br>
+
+                兩年半前，我做了  <b className="purple">大膽</b>一個決定，我想要做<br></br>Art related的工作。自那天以來，我為自己制定了學習計畫並 <b className="purple">每天畫畫</b>，即使是假日也不例外。
               </h1>
 
               <div style={{ padding: 50, textAlign: "left" }}>
@@ -47,14 +45,6 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
-              <img
-                src={homeLogo}
-                alt="home pic"
-                className="img-fluid"
-                style={{ maxHeight: "450px" }}
-              />
-            </Col>
           </Row>
         </Container>
       </Container>

@@ -6,8 +6,14 @@ function Type() {
     <Typewriter
       options={{
         strings: [
-          "數位插畫家",
-          "軟體工程師",
+          "設計",
+          "插畫",
+          "構圖",
+          "人體",
+          "結構",
+          "形體",
+          "光影",
+          "色彩"
         ],
         autoStart: true,
         loop: true,

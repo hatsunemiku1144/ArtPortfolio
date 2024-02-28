@@ -13,7 +13,7 @@ function AboutCard() {
             <br /> I am currently a software developer at Deanshoes
 
             <br />
-           I am looking forward to become a profresstional Artist.
+            I am looking forward to become a profresstional Artist.
             <br />
             <br />
             Apart from drawing, some other activities that I love to do!
@@ -31,9 +31,9 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+            "The difficulties of not knowing are always much greater than the effort of learning."{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Andrew Loomis</footer>
         </blockquote>
       </Card.Body>
     </Card>

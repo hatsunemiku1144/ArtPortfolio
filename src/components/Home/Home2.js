@@ -1,64 +1,42 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import {
-
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-
-import{SiPixiv} from "react-icons/si"
+import { SiGmail } from "react-icons/si";
+import { FaXTwitter } from "react-icons/fa6";
 
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
         <Row>
+          <Col md={2}></Col>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              我過去的 <span className="purple"> 經歷 </span>
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              在過去的職涯我擔任軟體工程師的職位
               <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
+              <br />其中我開發了
+              <b className="purple"> C#, Angular,SQL,JAVA,Android...等等 </b>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
+              在這些時間裡，我接觸到大大小小的專案，也不斷地 <b className="purple">學習</b>學習新技術
+              並解決了許多問題
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              我培養了<b className="purple">解決問題</b> 與 <b className="purple">溝通</b>的能力
+              <b className="purple"> 而我相信這些能力會陪伴我持續走下去</b>
+
             </p>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+
             </Tilt>
           </Col>
         </Row>
+        <Col md={2}></Col>
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
@@ -66,37 +44,28 @@ function Home2() {
               Feel free to <span className="purple">connect </span>with me
             </p>
             <ul className="home-about-social-links">
+
               <li className="social-icons">
-              <a
-                href="https://www.pixiv.net/en/users/6078612"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <SiPixiv />
-              </a>
+                <a
+                  href="https://twitter.com/SPP5566"
+                  style={{ color: "white" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <FaXTwitter />
+                </a>
               </li>
               <li className="social-icons">
-              <a
-                href="https://twitter.com/SPP5566"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
+                <a
+                  href="mailto:hatsunemiku1144@gmail.com"
+                  style={{ color: "white" }}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <SiGmail />
+                </a>
               </li>
-              <li className="social-icons">
-              <a
-                href="https://www.instagram.com/marisareimu"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiFillInstagram />
-              </a>
-              </li>
-              
+
             </ul>
           </Col>
         </Row>
