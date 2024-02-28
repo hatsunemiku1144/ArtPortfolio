@@ -36,13 +36,7 @@ function Artworks() {
 
           /></Col>
 
-          <Col md={3} className="project-card">
-            <ArtworkCards
-              imgSrc={MOKOU}
 
-
-            />
-          </Col>
           <Col md={3} className="project-card">
             <ArtworkCards
               imgSrc={YUI}
@@ -68,6 +62,14 @@ function Artworks() {
           <Col md={3} className="project-card">
             <ArtworkCards
               imgSrc={Mai}
+
+
+            />
+          </Col>
+
+          <Col md={3} className="project-card">
+            <ArtworkCards
+              imgSrc={MOKOU}
 
 
             />
