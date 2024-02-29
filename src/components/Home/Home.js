@@ -35,8 +35,6 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                謝謝點進網站的您<br></br>
-
                 兩年前，我做了一個<b className="purple">大膽</b>決定，我想要做<br></br>Art related的工作。自那天以來，我為自己制定了學習計畫並Step by Step <b className="purple">每天實行</b>，即使是假日也不例外。
               </h1>
 
