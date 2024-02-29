@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Artportfolio/static/css/main.d6cbcc73.css",
-    "main.js": "/Artportfolio/static/js/main.1cb563f5.js",
+    "main.js": "/Artportfolio/static/js/main.87f9eddd.js",
     "static/js/787.1ed0c42c.chunk.js": "/Artportfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/MOKOU.jpg": "/Artportfolio/static/media/MOKOU.1ed958b4f0e6107d40e1.jpg",
     "static/media/YUI.png": "/Artportfolio/static/media/YUI.e8d972f727b609b21a4b.png",
@@ -10,7 +10,7 @@
     "static/media/KANNA.jpg": "/Artportfolio/static/media/KANNA.e8eafc1090174b3ced03.jpg",
     "static/media/tree.jpg": "/Artportfolio/static/media/tree.70ffe64ceec3173896e2.jpg",
     "static/media/Pen.jpg": "/Artportfolio/static/media/Pen.5d0dc01293add5fa82d2.jpg",
-    "static/media/KANNA_2.jpg": "/Artportfolio/static/media/KANNA_2.7e60ff19e9593bdb172a.jpg",
+    "static/media/KANNA_2.jpg": "/Artportfolio/static/media/KANNA_2.1143c8712631124e089b.jpg",
     "static/media/Skectch1.jpg": "/Artportfolio/static/media/Skectch1.f691e2e161b91e150789.jpg",
     "static/media/Mai.jpg": "/Artportfolio/static/media/Mai.31bf504f386a951852ae.jpg",
     "static/media/home-main.svg": "/Artportfolio/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
@@ -22,11 +22,11 @@
     "index.html": "/Artportfolio/index.html",
     "static/media/getFetch.cjs": "/Artportfolio/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.d6cbcc73.css.map": "/Artportfolio/static/css/main.d6cbcc73.css.map",
-    "main.1cb563f5.js.map": "/Artportfolio/static/js/main.1cb563f5.js.map",
+    "main.87f9eddd.js.map": "/Artportfolio/static/js/main.87f9eddd.js.map",
     "787.1ed0c42c.chunk.js.map": "/Artportfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d6cbcc73.css",
-    "static/js/main.1cb563f5.js"
+    "static/js/main.87f9eddd.js"
   ]
 }
