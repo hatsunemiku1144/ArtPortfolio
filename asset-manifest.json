@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/Artportfolio/static/css/main.d6cbcc73.css",
-    "main.js": "/Artportfolio/static/js/main.67c5bb33.js",
+    "main.js": "/Artportfolio/static/js/main.ed0934ed.js",
     "static/js/787.1ed0c42c.chunk.js": "/Artportfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/MOKOU.jpg": "/Artportfolio/static/media/MOKOU.1ed958b4f0e6107d40e1.jpg",
     "static/media/YUI.png": "/Artportfolio/static/media/YUI.e8d972f727b609b21a4b.png",
-    "static/media/HOSHINO.jpg": "/Artportfolio/static/media/HOSHINO.253bae1127500a29d245.jpg",
+    "static/media/HOSHINO.jpg": "/Artportfolio/static/media/HOSHINO.665fdd12c05b94d7b97c.jpg",
     "static/media/CHACHAMARU.jpg": "/Artportfolio/static/media/CHACHAMARU.d9168930a84e3443a28d.jpg",
     "static/media/KANNA.jpg": "/Artportfolio/static/media/KANNA.e8eafc1090174b3ced03.jpg",
     "static/media/tree.jpg": "/Artportfolio/static/media/tree.70ffe64ceec3173896e2.jpg",
@@ -22,11 +22,11 @@
     "index.html": "/Artportfolio/index.html",
     "static/media/getFetch.cjs": "/Artportfolio/static/media/getFetch.40f37ddea2378391108f.cjs",
     "main.d6cbcc73.css.map": "/Artportfolio/static/css/main.d6cbcc73.css.map",
-    "main.67c5bb33.js.map": "/Artportfolio/static/js/main.67c5bb33.js.map",
+    "main.ed0934ed.js.map": "/Artportfolio/static/js/main.ed0934ed.js.map",
     "787.1ed0c42c.chunk.js.map": "/Artportfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d6cbcc73.css",
-    "static/js/main.67c5bb33.js"
+    "static/js/main.ed0934ed.js"
   ]
 }
