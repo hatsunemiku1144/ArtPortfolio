@@ -24,7 +24,7 @@ function Artworks() {
           My  <strong className="purple">ArtWorks </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few artWorks I've worked on recently.
+          Here are some artWorks I've done recently.
         </p>
 
 

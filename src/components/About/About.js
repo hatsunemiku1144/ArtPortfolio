@@ -8,7 +8,7 @@ import Toolstack from "./Toolstack";
 
 function About() {
   return (
-    <Container fluid className="about-section" style={{ height: "1500px" }
+    <Container fluid className="about-section" style={{ height: "100vh" }
     }>
 
       <Container>
