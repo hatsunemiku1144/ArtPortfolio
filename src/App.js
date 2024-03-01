@@ -12,6 +12,7 @@ import {
   Routes,
   Navigate
 } from "react-router-dom";
+import { HashRouter } from 'react-router-dom';
 import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
@@ -29,7 +30,7 @@ function App() {
   }, []);
 
   return (
-    <Router>
+    <HashRouter>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
         <Navbar />
@@ -37,7 +38,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/artwork" element={<Artworks />} />
-          <Route path="/resume" element={<Resume />} />
           <Route path="/About" element={<About />} />
 
           <Route path="*" element={<Navigate to="/" />} />
@@ -46,7 +46,7 @@ function App() {
         <Footer />
       </div>
 
-    </Router>
+    </HashRouter>
 
   );
 }
