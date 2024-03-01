@@ -2,8 +2,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
 import Home2 from "./Home2";
 import Type from "./Type";
-
 import { useTranslation } from "react-i18next";
+import lipao from "../../Assets/Artworks/QuickSketch/Lipao.jpg";
+import ArtworkCards from "../Artworks/ArtworkCards";
 
 function Home() {
   const { t, i18n } = useTranslation();
@@ -38,11 +39,18 @@ function Home() {
                 兩年前，我做了一個<b className="purple">大膽</b>決定，我想要做<br></br>Art related的工作。自那天以來，我為自己制定了學習計畫並Step by Step <b className="purple">每天實行</b>，即使是假日也不例外。
               </h1>
 
+
+
+
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
               </div>
             </Col>
 
+            <Col md={4}><ArtworkCards
+              imgSrc={lipao}
+              artworkTitle={'30min速寫@麗寶樂園'}
+            /></Col>
           </Row>
         </Container>
       </Container>

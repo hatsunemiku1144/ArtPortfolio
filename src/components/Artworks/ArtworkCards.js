@@ -1,8 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-function handleClick() {
-  console.log('Card clicked!');
-}
+
 function ArtworkCards(props) {
   return (
     //TODO:把大圖網址插在上面
@@ -10,10 +8,14 @@ function ArtworkCards(props) {
 
     <Card onClick={() => { window.open(props.imgSrc, "_blank") }} className="project-card-view" >
 
-      <Card.Body> <Card.Img variant="top" src={props.imgSrc} /></Card.Body>
+      <Card.Body> <Card.Img variant="top" src={props.imgSrc} />
+        <Card.Title style={{ textAlign: "center" }}>{props.artworkTitle}</Card.Title>
+      </Card.Body>
       <Card.Footer>
-        <Card.Title>{props.artworkTitle}</Card.Title>
 
+        <Card.Text>
+          {props.desc}
+        </Card.Text>
       </Card.Footer>
 
 

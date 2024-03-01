@@ -1,7 +1,5 @@
 import React from "react";
 import { Container, Row, Col, ListGroup } from "react-bootstrap";
-import ArtworkCards from "./ArtworkCards";
-import FakeImage from "../../Assets/Artworks/Sketch/FakeImage.png";
 import KANNA from "../../Assets/Artworks/ILLUSTATION/KANNA.jpg";
 import CHACHAMARU from "../../Assets/Artworks/ILLUSTATION/CHACHAMARU.jpg";
 import HOSHINO from "../../Assets/Artworks/ILLUSTATION/HOSHINO.jpg";
@@ -12,9 +10,7 @@ import Mai from "../../Assets/Artworks/CharacterDesign/Mai.jpg";
 import Pen from "../../Assets/Artworks/CharacterDesign/Pen.jpg";
 import KANNA_2 from "../../Assets/Artworks/ILLUSTATION/KANNA_2.jpg";
 import tree from "../../Assets/Artworks/CardDesign/tree.jpg";
-import { Link, DirectLink, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll';
-
-
+import ArtworkCards from "./ArtworkCards";
 
 function Artworks() {
   return (
@@ -44,6 +40,14 @@ function Artworks() {
 
             />
           </Col>
+
+          <Col md={3} className="project-card">
+            <ArtworkCards
+              imgSrc={Mai}
+              artworkTitle={"[Commission]"}
+
+            />
+          </Col>
           <Col md={3} className="project-card">
             <ArtworkCards
               imgSrc={HOSHINO}
@@ -59,9 +63,12 @@ function Artworks() {
 
 
 
+
+
+
           <Col md={3} className="project-card">
             <ArtworkCards
-              imgSrc={Mai}
+              imgSrc={Pen}
 
 
             />
@@ -74,15 +81,6 @@ function Artworks() {
 
             />
           </Col>
-          <Col md={3} className="project-card">
-            <ArtworkCards
-              imgSrc={Pen}
-
-
-            />
-          </Col>
-
-
 
           <Col md={3} className="project-card"><ArtworkCards
             imgSrc={tree}
